@@ -1,0 +1,54 @@
+<svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Minimal study design diagram</title>
+  <desc id="desc">Four-step diagram showing human data, LLM generation, embedding space, and semantic metrics.</desc>
+  <rect width="1400" height="560" fill="white"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  <text x="100" y="88" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Study design</text>
+  <text x="100" y="122" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="18">Human and model-generated animal lists are embedded in semantic space and compared with trajectory metrics.</text>
+
+  <rect x="90" y="184" width="270" height="300" rx="18" fill="white" stroke="#CBD5E1" stroke-width="2"/>
+  <circle cx="142" cy="236" r="18" fill="#E0F2FE"/>
+  <text x="174" y="243" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Human data</text>
+  <text x="120" y="290" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">• 82 SNAFU participants</text>
+  <text x="120" y="322" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">• Animals category</text>
+  <text x="120" y="354" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">• Ordered fluency lists</text>
+
+  <path d="M360 294H410" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="410" y="184" width="330" height="300" rx="18" fill="white" stroke="#CBD5E1" stroke-width="2"/>
+  <circle cx="462" cy="236" r="18" fill="#EDE9FE"/>
+  <text x="494" y="243" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">LLM generation</text>
+  <text x="440" y="290" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">• Claude Sonnet 4.5</text>
+  <text x="440" y="322" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">• Gemini 2.5 Pro</text>
+  <text x="440" y="354" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">• GPT-4o</text>
+  <text x="440" y="386" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">• 8 temperatures</text>
+
+  <path d="M740 294H790" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="790" y="184" width="310" height="300" rx="18" fill="white" stroke="#CBD5E1" stroke-width="2"/>
+  <circle cx="832" cy="236" r="18" fill="#DBEAFE"/>
+  <text x="862" y="238" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Embedding</text>
+  <text x="862" y="260" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">space</text>
+  <circle cx="880" cy="318" r="6" fill="#94A3B8"/>
+  <circle cx="930" cy="294" r="6" fill="#94A3B8"/>
+  <circle cx="990" cy="336" r="6" fill="#94A3B8"/>
+  <circle cx="924" cy="354" r="6" fill="#94A3B8"/>
+  <path d="M880 318L930 294L990 336L924 354" stroke="#2563EB" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="814" y="388" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="14">Items become semantic</text>
+  <text x="814" y="407" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="14">trajectories.</text>
+
+  <path d="M1100 294H1140" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="1140" y="184" width="200" height="300" rx="18" fill="white" stroke="#CBD5E1" stroke-width="2"/>
+  <circle cx="1188" cy="236" r="18" fill="#DCFCE7"/>
+  <text x="1220" y="243" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Metrics</text>
+  <text x="1168" y="290" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">Entropy</text>
+  <text x="1168" y="322" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">Distance to next</text>
+  <text x="1168" y="354" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">Distance to</text>
+  <text x="1168" y="378" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="17">centroid</text>
+</svg>
